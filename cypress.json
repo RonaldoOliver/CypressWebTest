@@ -1,0 +1,7 @@
+{
+    "testFiles": "**/*.feature",
+    "viewportWidth": 1024,
+    "viewportHeight": 768,
+    "defaultCommandTimeout": 50000,
+    "baseUrl": "http://automationpractice.com/index.php?controller=authentication&back=my-account"
+}

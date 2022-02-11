@@ -1,0 +1,20 @@
+{
+  "name": "qa_cypress_web",
+  "version": "1.0.0",
+  "description": "Aprendendo Cypress end-to-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "test:chrome": "cypress run --browser chrome --no-exit",
+    "test:um": "cypress-tags run -e TAGS=@testeum",
+    "test:dois": "cypress-tags run -e TAGS=@testedois --browser chrome"
+  },
+  "author": "Ronaldo Oliveira",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.4.1"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
